@@ -76,7 +76,7 @@ def clean_sort_dictionary(input_json_path, output_json_path, output_csv_path):
     print(f"Cleaned and sorted dictionary saved as {output_json_path} and {output_csv_path}")
 
 clean_sort_dictionary(
-    "base_data.json",
-    "turkish_dict.json",
-    "turkish_dict.csv"
+    "data/base_data.json",
+    "data/turkish_dict.json",
+    "data/turkish_dict.csv"
 )
